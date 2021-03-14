@@ -6,4 +6,7 @@ public class CommonHelper extends BasePage {
     public void stopApp() {
         driver.quit();
     }
+    public void takeScreenShot() {
+        driver.takeSnapShot();
+    }
 }
